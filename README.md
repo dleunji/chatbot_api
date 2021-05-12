@@ -1,7 +1,10 @@
-# Simple Chit-Chat based on KoGPT2
+# Simple Chatbot based on KoGPT2
+
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.ai/dleunji/KoGPT2-chatbot)<br>
+<img width="1059" alt="스크린샷 2021-05-12 오후 3 02 46" src="https://user-images.githubusercontent.com/46207836/117926059-20cde300-b333-11eb-8292-52c1061ebd61.png">
 
 ## Purpose
-
+- jupyter notebook처럼 GPU 환경은 유지하되 Streamlit을 이용하여 심심이와 훨씬 직관적인 대화를 할 수 있습니다.
 - [공개된 한글 챗봇 데이터](https://github.com/songys/Chatbot_data)와 pre-trained [KoGPT2](https://github.com/SKT-AI/KoGPT2)를 이용한 간단한 챗봇 실험
 - `KoGPT2`의 다양한 활용 가능성을 타진하고 성능을 정성적으로 평가한다.
 
