@@ -1,0 +1,8 @@
+FROM tensorflow/tensorflow:1.15.5-gpu-py3
+RUN mkdir -p /app/model_chp
+WORKDIR /app
+COPY model_chp /app/model_chp
+RUN mkdir -p /app/lightning_logs
+COPY lightning_logs /app/lightning_logs
+EXPOSE 8051
+CMD ["bash"]
