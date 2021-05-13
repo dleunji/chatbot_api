@@ -60,5 +60,5 @@ class User(BaseModel):
         max_length = 20
     )
 
-class Simsimi(BaseModel):
-    simsimi : str
+class Comcom(BaseModel):
+    comcom : str
